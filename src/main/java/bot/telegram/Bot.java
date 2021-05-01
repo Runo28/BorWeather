@@ -20,7 +20,7 @@ import java.util.List;
 public class Bot extends TelegramLongPollingBot {
 
     private final String TOKEN = "1775880648:AAEACbnmR3Y6xUEt2xbZ_nB65ui9JzSVsSw";
-    private final String Username = "Погода Підгороднє ОТГ";
+    private final String Username = "Podgar";
 
 
     public static void main(String[] args) {
