@@ -44,7 +44,7 @@ public class weatherOTG {
             weather+= tablWeather.child(i).text()
                     .replace("мін.","ніч")
                     .replace("макс.","день")
-                    +" "+tablWeather.child(i).child(3)
+                    +"\n"+tablWeather.child(i).child(3)
                     .attr("title") + "\n\n";
         }
         return weather;
