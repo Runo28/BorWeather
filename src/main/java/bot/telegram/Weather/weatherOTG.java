@@ -40,6 +40,7 @@ public class weatherOTG {
         Element tablWeather = page.select("div[class=tabs]").first();
 
         String weather="";
+
         for (int i = 1; i <14 ; i=i+2) {
             weather+= tablWeather.child(i).text()
                     .replace("мін.","ніч")
